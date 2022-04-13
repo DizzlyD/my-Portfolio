@@ -1,0 +1,16 @@
+{
+  "name": "dev-portfolio",
+  "version": "1.0.0",
+  "description": "My-dev-portfolio",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "author": "David Henery",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.4.1",
+    "parcel": "^2.4.1",
+    "sass": "^1.50.0"
+  }
+}
