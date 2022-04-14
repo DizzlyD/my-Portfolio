@@ -33,12 +33,18 @@
         font-size: 2.5rem;
         .h1-p1{
             display: block;
-            text-align: left;
+            position: relative;
+            right: 25%;
+            // text-align: left;
         }
         .h1-p2{
-            display: block;
+            // display: block;
             position: relative;
-            right: 4rem;
+            right: 10%;
+        }
+        .h1-p3{
+            // display: block;
+            font-size: 1.5rem;
         }
         &--highlight{
             display: block;
@@ -61,3 +67,39 @@
         align-items: center;
     }
 }
+
+// HEADER MEDIA QUERIES (TABLET)
+
+@media (min-width: 768px){
+    .hero{
+        &__heading{
+            font-size: 3.5rem;
+            &--highlight{
+                font-size: 4.5rem
+            }
+        }
+        &__btns{
+            .btn:first-child{
+            margin-bottom: 0;
+            }
+            width: 75%;
+            max-width: 850px;
+            margin: 0 auto;
+            flex-direction: row;
+            justify-content: space-evenly;
+        }
+    }
+}
+
+// MEDIA QUERIES (DESKTOP)
+
+@media(min-width: 1200px){
+    .hero{
+        &__heading{
+            font-size: 4.5rem;
+            &--highlight{
+                font-size: 5.5rem
+            }
+        }
+    }
+};
