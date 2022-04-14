@@ -26,7 +26,7 @@
     justify-content: space-evenly;
     text-align: center;
     span{
-        margin: 1.5rem 0;
+        margin: 1rem 0;
     }
     //
     &__heading{
@@ -35,16 +35,29 @@
             display: block;
             position: relative;
             right: 25%;
-            // text-align: left;
+            animation: moveInLeft 1s forwards;
+            @include headerTransitions;
         }
         .h1-p2{
-            // display: block;
+            display: block;
             position: relative;
             right: 10%;
+            animation: 1s 1.2s moveInRight forwards;
+            @include headerTransitions;
         }
         .h1-p3{
+            animation: 1s 2s moveInLeft forwards;
+            @include headerTransitions;
+        }
+        .h1-p4{
             // display: block;
             font-size: 1.5rem;
+            @include headerTransitions;
+            animation: 1s 2.5s fadeIn forwards;
+        }
+        .h1-p5{
+            animation: 1s 2s moveInRight forwards;
+            @include headerTransitions;
         }
         &--highlight{
             display: block;
@@ -65,6 +78,8 @@
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
+        @include headerTransitions;
+        animation: 1s 2.5s fadeIn forwards;
     }
 }
 

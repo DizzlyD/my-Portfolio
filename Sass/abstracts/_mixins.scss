@@ -1,0 +1,6 @@
+// Header animation transitions
+@mixin headerTransitions {
+    opacity: 0;
+    transition: 1s ease-in all;
+    backface-visibility: hidden;
+}
