@@ -1,14 +1,25 @@
 .btn{
-    border: none;
-    padding: 10px 30px;
-    border-radius: 20px;
+    padding: 12px 60px;
+    border-radius: 30px;
+    font-size: 1.5rem;
+    text-decoration: none;
 }
 
+
 .btn-primary{
+    border: none;
     background-color: $accent-color;
+    color: $primary-color;
+    &:visited{
+        color: $primary-color;
+    }
 }
 
 .btn-secondary{
     border: 2px solid $accent-color;
     background-color: transparent;
+    color: $main-font-color;
+    &:visited{
+        color: $main-font-color;
+    }
 }

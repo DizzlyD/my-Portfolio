@@ -19,11 +19,15 @@
   </head>
   <body>
 
-      <header>
+      <header class="header">
 
-        <nav>
+        <nav class="navbar">
           <div class="logo">
-            <p>DJH</p>
+            <svg viewBox="0 0 94 68" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M16.887 21.9148C19.7937 20.8568 22.4786 20.4756 24.9415 20.771C27.4044 21.0665 29.5474 22.0034 31.3705 23.5817C33.1936 25.16 34.6022 27.3148 35.5964 30.0462C36.5814 32.7525 36.8829 35.2962 36.5008 37.6771C36.1097 40.0329 35.0657 42.1156 33.3689 43.9251C31.663 45.7095 29.3566 47.1307 26.4498 48.1886L18.6692 51.0206L9.1063 24.7468L16.887 21.9148ZM25.6564 46.0086C29.3149 44.677 31.7498 42.7124 32.9611 40.1147C34.1883 37.483 34.1772 34.4506 32.9276 31.0176C31.669 27.5595 29.7238 25.2168 27.092 23.9896C24.4762 22.7282 21.339 22.7633 17.6804 24.0949L12.5309 25.9692L20.5068 47.8828L25.6564 46.0086Z" fill="#D2D4D1"/>
+            <path d="M44.9776 18.7887L52.2147 38.6726C52.9444 40.6772 52.9187 42.517 52.1378 44.1917C51.3477 45.8415 49.9253 47.0403 47.8705 47.7881C45.7405 48.5634 43.8039 48.5446 42.0608 47.7318C40.3336 46.8847 39.0687 45.3587 38.2661 43.1535L40.9348 42.1822C41.4798 43.6014 42.2547 44.6389 43.2596 45.2948C44.2896 45.9415 45.5438 45.9958 47.0223 45.4577C48.4255 44.947 49.315 44.155 49.6906 43.0818C50.0662 42.0086 50.0305 40.8581 49.5836 39.6302L42.3465 19.7463L44.9776 18.7887Z" fill="#A5E255"/>
+            <path d="M74.5831 17.4754L84.146 43.7492L81.5148 44.7069L77.0412 32.4157L62.7955 37.6007L67.2691 49.8919L64.6379 50.8495L55.0751 24.5757L57.7062 23.6181L62.002 35.4206L76.2477 30.2356L71.9519 18.4331L74.5831 17.4754Z" fill="#D2D4D1"/>
+            </svg>
           </div>
           <div class="burger-menu">
             <svg width="32" height="22" viewBox="0 0 32 22" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -34,19 +38,28 @@
 
         <section class="hero">
 
-          <h1>
-            Hello there i'm 
-            <span>David</span> 
-            (aspiring) 
-            <span>Front end developer</span>
+          <h1 class="hero__heading">
+            <span class="h1-p1">
+              Hello there 
+            </span>
+            <span class="h1-p2">i'm</span>
+            <span class="hero__heading--highlight">David</span>
+            <span class="h1-p3">
+              (aspiring)
+            </span>
+            <span class="hero__heading--highlight">Front end developer</span>
           </h1>
-
-          <button class="btn btn-primary">
-            Contact
-          </button>
-          <button class="btn btn-secondary">
-            Projects
-          </button>
+        
+          <div class="hero__btns">
+            <a href="" class="btn btn-primary">Contact</a>
+            <a href="#" class="btn btn-secondary">Projects</a>
+            <!-- <button class="btn btn-primary">
+              Contact
+            </button>
+            <button class="btn btn-secondary">
+              Projects
+            </button> -->
+          </div>
 
         </section>
 
