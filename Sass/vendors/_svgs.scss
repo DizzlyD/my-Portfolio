@@ -1,0 +1,11 @@
+.wave-container{
+    position: relative;
+    width: 100%;
+    padding-bottom: calc(100% * 52/375);
+}
+
+.wave-transition{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
