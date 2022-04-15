@@ -1,9 +1,32 @@
 .about{
-    height: 120vh;
     width: 100vw;
     background-color: $secondary-color;
 }
 
 .about__content{
+    height: 100vh;
     padding: $section-padding;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    &--title{
+        font-size: 2.5rem;
+    }
+    &--text{
+        font-size: 1.8rem;
+        max-width: 950px;
+    }
+}
+
+// MEDIA QUERIES (DESKTOP)
+
+@media(min-width: 1024px) {
+    .about__content{
+        &--title{
+            font-size: 3.5rem;
+        }
+        &--text{
+            font-size: 2.8rem;
+        }
+    }
 }
