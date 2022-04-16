@@ -4,3 +4,15 @@
     transition: 1s ease-in all;
     backface-visibility: hidden;
 }
+
+// input styles
+@mixin inputStyles {
+    color: $main-font-color;
+    width: 100%;
+    padding: 1rem;
+    background-color: $secondary-color;
+    border: none;
+    outline: none;
+    margin: 1.2rem 0;
+    border-radius: 5px;
+}
