@@ -23,11 +23,11 @@
         &--input{
             position: relative;
             .labels{
-                position: absolute;
-                transition: all .5s;
-                top: 25%;
-                left: 2%;
-                background-color: transparent;
+            position: absolute;
+            transition: all .5s;
+            top: 33%;
+            left: 2%;
+            font-size: 1.2rem;
             }
         }
         &--msg{
@@ -36,6 +36,7 @@
             position: absolute;
             top: 8%;
             left: 2%;
+            font-size: 1.2rem;
             }
         }
         &--btn{
@@ -50,14 +51,22 @@
     &:focus{
         border: 1px solid $accent-color;
         }
-    &:focus ~ .labels{
-        top: -10%;
-        transition: all .5s;
-        color: $accent-color;
-        }
     &:focus ~ .label-msg{
         top: -3%;
         transition: all .5s;
         color: $accent-color;
         }
-    }
+}
+
+.inputs:focus ~ .labels,
+    .inputs:not(:placeholder-shown).inputs:not(:focus) ~.labels{
+    top: -10%;
+    transition: all .5s;
+    color: $accent-color;
+    font-size: 1rem;
+}
+
+
+
+
+
