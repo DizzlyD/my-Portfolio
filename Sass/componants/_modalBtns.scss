@@ -1,0 +1,14 @@
+.modal-btn{
+    border: 1px solid $accent-color;
+    text-align: center;
+    height: 3rem;
+    width: 10rem;
+    padding: 0.4rem 0;
+    font-size: 1.2rem;
+    margin-right: auto;
+    color: $main-font-color;
+    text-decoration: none;
+    &:visited{
+        color: $main-font-color;
+    }
+}
