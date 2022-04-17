@@ -20,6 +20,7 @@
     // FORM
     &__form{
         width: 100%;
+        max-width: 690px;
         &--input{
             position: relative;
             .labels{
@@ -37,6 +38,7 @@
             top: 8%;
             left: 2%;
             font-size: 1.2rem;
+            transition: all .5s;
             }
         }
         &--btn{
@@ -51,11 +53,6 @@
     &:focus{
         border: 1px solid $accent-color;
         }
-    &:focus ~ .label-msg{
-        top: -3%;
-        transition: all .5s;
-        color: $accent-color;
-        }
 }
 
 .inputs:focus ~ .labels,
@@ -65,7 +62,26 @@
     color: $accent-color;
     font-size: 1rem;
 }
+.inputs:focus ~ .label-msg,
+    .inputs:not(:placeholder-shown).inputs:not(:focus) ~.label-msg{
+    top: -4%;
+    transition: all .5s;
+    color: $accent-color;
+    font-size: 1rem;
+}
 
+// MEDIA QUERIES (TABLET)
+@media(min-width:768px){
+    .contact{
+        &__title{
+            font-size: 3.5rem;
+            span{
+                font-weight: 300;
+                letter-spacing: 6px;
+            }
+        }
+    }
+};
 
 
 
