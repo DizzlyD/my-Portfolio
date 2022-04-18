@@ -13,6 +13,36 @@
     align-items: center;
 }
 
+.burger-menu{
+    width: 4rem;
+    .line{
+        width: 75%;
+        height: .3rem;
+        margin: 1rem 0;
+        background-color: $main-font-color;
+        border-radius: 10px;
+        transition: all .2s;
+        position: relative;
+    }
+}
+
+.burger-line-1{
+    transition: all .2s;
+    transform: rotate(45deg);
+    top: 1.2rem;
+}
+.burger-line-2{
+    transition: all .2s;
+    opacity: 0;
+    bottom: 2px;
+    transform: translateX(100vw);
+}
+.burger-line-3{
+    transition: all .2s;
+    transform: rotate(-45deg);
+    bottom: 1.4rem;
+}
+
 .nav-links{
     display: none;
 }
