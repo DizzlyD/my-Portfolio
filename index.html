@@ -37,15 +37,20 @@
           </div>
           <!-- NAVLINKS -->
           <div class="nav-links">
-            <a href="#">About</a>
-            <a href="#">Projects</a>
-            <a href="#">Contact</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
           </div>
           <!-- SLIDENAV -->
           <div class="nav-slide">
-            <a href="#">About</a>
-            <a href="#">Projects</a>
-            <a href="#">Contact</a>
+            <div class="exit-icon">
+              <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M17 1L1 17M17 17L1 1L17 17Z" stroke="white" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
           </div>
         </nav>
 
@@ -80,8 +85,9 @@
           </svg>
         </div>
 
-        <div class="about__content">
-          <h2 class="about__content--title">About Me</h2>
+        <div id="about" class="about__content">
+          <h2 class="about__content--title">About Me
+          </h2>
           <p class="about__content--text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et voluptatum nihil dolorum, porro necessitatibus iusto quae nisi?
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, omnis fuga? Maiores.
           </p>
@@ -185,7 +191,7 @@
         </div>
 
         <!--****-->
-        <h2 class="projects__title">My Work</h2>
+        <h2 id="projects" class="projects__title">My Work</h2>
 
         <div class="projects__gallery">
 
@@ -263,7 +269,7 @@
       </section>
 
       <section class="contact">
-        <h2 class="contact__title">
+        <h2 id="contact" class="contact__title">
           Want to work together?
           <span>Get in touch</span>
         </h2>
