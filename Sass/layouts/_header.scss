@@ -13,6 +13,34 @@
     align-items: center;
 }
 
+.nav-links{
+    display: none;
+}
+
+.nav-slide{
+    position: fixed;
+    background-color: $secondary-color;
+    z-index: 30;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: ease-in .5s;
+    transform: translateX(-100%);
+    a{
+        font-size: 2.5rem;
+        text-decoration: none;
+        color: $main-font-color;
+        &:visited{
+            color: $main-font-color;
+        }
+    }
+}
+
 .logo{
     // height: 2rem;
     width: 6rem;
@@ -107,6 +135,29 @@
 }
 
 // MEDIA QUERIES (DESKTOP)
+@media(min-width: 1024px){
+    .burger-menu{
+        display: none;
+    }
+    .nav-links{
+        display: block;
+        height: 10%;
+        width: 30%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 1.4rem;
+        color: $main-font-color;
+        a{
+            text-decoration: none;
+        }
+        a:visited{
+            color: $main-font-color;
+        }
+    }
+}
+
+// MEDIA QUERIES (DESKTOP-LARGE)
 
 @media(min-width: 1200px){
     .hero{
