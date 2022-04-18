@@ -1,3 +1,5 @@
+
+// HEADER TITLE ANIMATIONS
 @keyframes moveInLeft{
     0%{
         opacity: 0;
@@ -37,4 +39,22 @@
     100%{
         opacity: 1;
     }
+}
+
+// BURGER ANIMATIONS
+
+.burger-line-1{
+    transition: all .2s;
+    transform: rotate(45deg);
+    top: 1.2rem;
+}
+.burger-line-2{
+    transition: all .2s;
+    opacity: 0;
+    bottom: 2px;
+}
+.burger-line-3{
+    transition: all .2s;
+    transform: rotate(-45deg);
+    bottom: 1.4rem;
 }

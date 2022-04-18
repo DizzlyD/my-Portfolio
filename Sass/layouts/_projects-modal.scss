@@ -64,6 +64,16 @@
     }
 }
 
+.exit-icon-modal{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+.modal-active{
+    display: block;
+}
+
 // MEDIA QUERIES (TABLET)
 
 @media(min-width:700px){
