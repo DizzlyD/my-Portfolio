@@ -12,6 +12,12 @@ import Project6 from "./modalRenders/project6.js";
 
 const modal = document.querySelector(".modal")
 
+modal.addEventListener("click", function(e){
+  const clicked = e.target.classList.contains("modal")
+  if (!clicked) return
+  modal.classList.remove("modal-active")
+})
+
 const activateModal = function(e){
   const clicked = e.target.closest(".project-link");
   if (!clicked) return;
