@@ -24,8 +24,8 @@ class Project6 extends MainProject {
           <li>Git</li>
         </ul>
         <div class="modal__content--links">
-          <a href="#" class="modal-btn">gitHub</a>
-          <a href="#" class="modal-btn">Live Project</a>
+          <a href="#" class="modal-btn" target="_blank" rel="noopener noreferrer">gitHub</a>
+          <a href="#" class="modal-btn" target="_blank" rel="noopener noreferrer">Live Project</a>
         </div>
       </div>`;
   }

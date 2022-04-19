@@ -18,3 +18,15 @@
     resize: none;
     text-align: left;
 }
+
+// IDEAS
+
+@mixin flexCol {
+    display: flex;
+    flex-direction: column;
+}
+
+@mixin headerStyles {
+    font-weight: 300;
+    letter-spacing: 0.6rem;
+}

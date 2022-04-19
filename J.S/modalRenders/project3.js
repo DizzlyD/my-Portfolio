@@ -16,7 +16,7 @@ class Project3 extends MainProject {
       </div>
       <div class="modal__content--details">
         <h4 class="modal__content--title">myWeather</h4>
-        <p class="modal__content--descript">myWeather is a weather app that provides weather data based on a users search query, aswell as a top 10 cities feature and a couple of forecast features. </p>
+        <p class="modal__content--descript">myWeather allows users to get weather forecasts based on their current location or by searching for a location. It also lets users search for next weeks forecast and forecast for the next five hours. Also includes a top 10 cities current weather feature.</p>
         <ul class="modal__content--list">
           <h6>Technologies used:</h6>
           <li>HTML</li>
@@ -26,8 +26,8 @@ class Project3 extends MainProject {
           <li>Git</li>
         </ul>
         <div class="modal__content--links">
-          <a href="#" class="modal-btn">gitHub</a>
-          <a href="#" class="modal-btn">Live Project</a>
+          <a href="https://github.com/DizzlyD/myWeatherApp" class="modal-btn" target="_blank" rel="noopener noreferrer">gitHub</a>
+          <a href="https://extremo-weather-finder.netlify.app" class="modal-btn" target="_blank" rel="noopener noreferrer">Live Project</a>
         </div>
       </div>`;
   }

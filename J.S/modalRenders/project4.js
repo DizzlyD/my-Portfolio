@@ -16,7 +16,7 @@ class Project4 extends MainProject {
       </div>
       <div class="modal__content--details">
         <h4 class="modal__content--title">DropZone</h4>
-        <p class="modal__content--descript">DropZone is a random location generator for the call of duty game mode warzone, it also has a couple of features like letting players select or remove their choosen locations.</p>
+        <p class="modal__content--descript">DropZone is a random location generator for warzone players to help them choose where to drop with their friends. It has a couple of features like selecting & removing different locations and also a no repeat location feature.</p>
         <ul class="modal__content--list">
           <h6>Technologies used:</h6>
           <li>HTML</li>
@@ -26,8 +26,8 @@ class Project4 extends MainProject {
           <li>Git</li>
         </ul>
         <div class="modal__content--links">
-          <a href="#" class="modal-btn">gitHub</a>
-          <a href="#" class="modal-btn">Live Project</a>
+          <a href="https://github.com/DizzlyD/DropZone" class="modal-btn" target="_blank" rel="noopener noreferrer">gitHub</a>
+          <a href="https://dizzlyd.github.io/DropZone/" class="modal-btn" target="_blank" rel="noopener noreferrer">Live Project</a>
         </div>
       </div>`;
     }

@@ -16,7 +16,7 @@ class Project2 extends MainProject {
       </div>
       <div class="modal__content--details">
         <h4 class="modal__content--title">Mars Weather</h4>
-        <p class="modal__content--descript">Gives the most up to date and available weather data on mars, from nasa's curiosity rover.</p>
+        <p class="modal__content--descript">Provides the users with weather data from mars, from nasa's curiosity rover. It allows them to see the weather for the most current day aswell as the previous week. Also contains a fahrenheit to celsius converter.</p>
         <ul class="modal__content--list">
           <h6>Technologies used:</h6>
           <li>HTML</li>
@@ -26,8 +26,8 @@ class Project2 extends MainProject {
           <li>Git</li>
         </ul>
         <div class="modal__content--links">
-          <a href="#" class="modal-btn">gitHub</a>
-          <a href="#" class="modal-btn">Live Project</a>
+          <a href="https://github.com/DizzlyD/Mars-Weather" class="modal-btn" target="_blank" rel="noopener noreferrer">gitHub</a>
+          <a href="https://mars-tiempo.netlify.app" class="modal-btn" target="_blank" rel="noopener noreferrer">Live Project</a>
         </div>
       </div>`;
   }

@@ -15,7 +15,7 @@ class Project1 extends MainProject {
       </div>
       <div class="modal__content--details">
         <h4 class="modal__content--title">myTeam</h4>
-        <p class="modal__content--descript">myTeam is a football data dashboard displaying different bits of data about a football team based on a users search.</p>
+        <p class="modal__content--descript">myTeam allows users to search for any football team they like and see statistics about that team. Like games won, fixtures,results, minutes most likely to score and more. It also has a dark/light mode feature.</p>
         <ul class="modal__content--list">
           <h6>Technologies used:</h6>
           <li>HTML</li>
@@ -25,8 +25,8 @@ class Project1 extends MainProject {
           <li>Git</li>
         </ul>
         <div class="modal__content--links">
-          <a href="#" class="modal-btn">gitHub</a>
-          <a href="#" class="modal-btn">Live Project</a>
+          <a href="https://github.com/DizzlyD/myTeam-Football-Dashboard" class="modal-btn" target="_blank" rel="noopener noreferrer">gitHub</a>
+          <a href="https://myteam-football-dashboard.netlify.app" class="modal-btn" target="_blank" rel="noopener noreferrer">Live Project</a>
         </div>
       </div>`;
   }

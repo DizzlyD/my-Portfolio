@@ -16,7 +16,8 @@ class Project5 extends MainProject {
       </div>
       <div class="modal__content--details">
         <h4 class="modal__content--title">SonicBoom</h4>
-        <p class="modal__content--descript">SonicBoom is a fictional music festival multi page web site. The festival is based in croatia and is primarily focused on electronic music.</p>
+        <p class="modal__content--descript">SonicBoom is a fictional music festival web site. It's Primarily focused on electronic music and based in croatia.
+        It has a lot of general concepts used in most festival sites like a vibrant colour theme and photo gallerys to try and showcase the festival experience.</p>
         <ul class="modal__content--list">
           <h6>Technologies used:</h6>
           <li>HTML</li>
@@ -24,8 +25,8 @@ class Project5 extends MainProject {
           <li>Javascript</li>
         </ul>
         <div class="modal__content--links">
-          <a href="#" class="modal-btn">gitHub</a>
-          <a href="#" class="modal-btn">Live Project</a>
+          <a href="#" class="modal-btn" target="_blank" rel="noopener noreferrer">gitHub</a>
+          <a href="#" class="modal-btn" target="_blank" rel="noopener noreferrer" >Live Project</a>
         </div>
       </div>`;
   }

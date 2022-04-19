@@ -12,3 +12,14 @@
         color: $main-font-color;
     }
 }
+
+// MEDIA QUERIES
+
+@media(min-width:1000px){
+    .modal-btn{
+        height: 4rem;
+        width: 11rem;
+        padding: 0.8rem 0;
+        font-size: 1.4rem;
+    }
+}
