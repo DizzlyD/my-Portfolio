@@ -1,21 +1,28 @@
 // COLOR Variables
 $main-font-color: #d2d4d1;
 $primary-color: #171c1e;
-$secondary-color: #1F2426; // not 100% #232729 correct or #1F2426
+$secondary-color: #1f2426; // not 100% #232729 correct or #1F2426
 $accent-color: #a5e255;
 
 // FONT Variables
 $main-font: "Poppins", sans-serif;
-
-// ELEMENT Variables
-$section-padding:2%  5%;
-
-//   IDEAS
-
-$generalTransition: ease-in .5s;
+$burgerLineTransition: all 0.2s;
 $headerFontSizeSml: 2.5rem;
 $headerFontSizeMed: 3.5rem;
 $headerFontSizeLge: 4.5rem;
-$headerFontSizeXL: 4.5rem; // Only used in Header
+$headerFontSizeXL: 5.5rem; // Only used in Header
+
+// ELEMENT Variables
+$section-padding: 2% 5%;
+
+//   IDEAS
+
+// Create General Font size text variable
+// not used yet.
+$text-font-size-sml: 1.2rem;
+$text-font-size-md: 1.4rem;
+$text-font-size-lg: 1.6rem;
+$text-font-size-xlg: 2.2rem;
+
 $marginOne: 1rem;
 $centerMargin: 0 auto;

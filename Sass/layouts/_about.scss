@@ -6,13 +6,11 @@
 .about__content{
     height: 100vh;
     padding: $section-padding;
-    display: flex;
-    flex-direction: column;
+    @include flexCol;
     justify-content: space-evenly;
     &--title{
-        font-size: 2.5rem;
-        font-weight: 300;
-        letter-spacing: 6px;
+        font-size: $headerFontSizeSml;
+        @include headerStyles;
     }
     &--text{
         font-size: 1.8rem;
@@ -25,7 +23,7 @@
 @media(min-width: 1024px) {
     .about__content{
         &--title{
-            font-size: 3.5rem;
+            font-size: $headerFontSizeMed;
         }
         &--text{
             font-size: 2.8rem;

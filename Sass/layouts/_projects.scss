@@ -7,9 +7,8 @@
 }
 
 .projects__title{
-    font-size: 2.5rem;
-    font-weight: 300;
-    letter-spacing: 6px;
+    font-size: $headerFontSizeSml;
+    @include headerStyles;
     // might keep??
     margin: 5rem auto;
     // max-width: 385px;
@@ -57,8 +56,7 @@
             left: 0;
             height: 100%;
             width: 100%;
-            display: flex;
-            flex-direction: column;
+            @include flexCol;
             justify-content: space-evenly;
             align-items: center;
             padding: 10%;
@@ -94,7 +92,7 @@
 
 @media(min-width: 768px){
     .projects__title{
-        font-size: 3.5rem;
+        font-size: $headerFontSizeMed;
     }
     .projects__gallery{
     grid-template-columns: repeat(2, 1fr);

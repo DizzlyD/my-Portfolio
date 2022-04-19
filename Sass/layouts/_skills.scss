@@ -4,14 +4,12 @@
     width: 100%;
     text-align: center;
     padding:$section-padding;
-    display: flex;
-    flex-direction: column;
+    @include flexCol;
     justify-content: space-evenly;
     align-items: center;
     &__title{
-        font-size: 2.5rem;
-        font-weight: 300;
-        letter-spacing: 6px;
+        font-size: $headerFontSizeSml;
+        @include headerStyles;
         margin-bottom: auto;
     }
     &__icons{
@@ -44,7 +42,7 @@
 @media (min-width: 768px){
     .skills{
         &__title{
-            font-size: 3.5rem;
+            font-size: $headerFontSizeMed;
         }
         &__box{
             &--svg{
