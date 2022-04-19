@@ -2,6 +2,8 @@ console.log("nav.JS working")
 
 // Navigation Animation (burger,nav functionality)
 
+// exit on overlay needs to be applied!
+
 const burger = document.querySelector(".burger-menu");
 const burgerLine1 = document.querySelector(".line-1")
 const burgerLine2 = document.querySelector(".line-2")
