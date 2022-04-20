@@ -6,11 +6,20 @@ $accent-color: #a5e255;
 
 // FONT Variables
 $main-font: "Poppins", sans-serif;
-$burgerLineTransition: all 0.2s;
+// headers
 $headerFontSizeSml: 2.5rem;
 $headerFontSizeMed: 3.5rem;
 $headerFontSizeLge: 4.5rem;
-$headerFontSizeXL: 5.5rem; // Only used in Header
+$headerFontSizeXL: 5.5rem; // Only used in main Header
+// text
+$active-label-font: 1rem;
+$text-font-size-sml: 1.2rem;
+$text-font-size-md: 1.4rem;
+$text-font-size-lg: 2rem;
+$text-font-size-xlg: 2.2rem;
+
+// Animation Variables
+$burgerLineTransition: all 0.2s;
 
 // ELEMENT Variables
 $section-padding: 2% 5%;
@@ -19,10 +28,6 @@ $section-padding: 2% 5%;
 
 // Create General Font size text variable
 // not used yet.
-$text-font-size-sml: 1.2rem;
-$text-font-size-md: 1.4rem;
-$text-font-size-lg: 1.6rem;
-$text-font-size-xlg: 2.2rem;
 
 $marginOne: 1rem;
 $centerMargin: 0 auto;

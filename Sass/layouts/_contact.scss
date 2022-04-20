@@ -27,7 +27,7 @@
             transition: all .5s;
             top: 33%;
             left: 2%;
-            font-size: 1.2rem;
+            font-size: $text-font-size-sml;
             }
         }
         &--msg{
@@ -36,7 +36,7 @@
             position: absolute;
             top: 8%;
             left: 2%;
-            font-size: 1.2rem;
+            font-size: $text-font-size-sml;
             transition: all .5s;
             }
         }
@@ -59,14 +59,14 @@
     top: -10%;
     transition: all .5s;
     color: $accent-color;
-    font-size: 1rem;
+    font-size: $active-label-font;
 }
 .inputs:focus ~ .label-msg,
     .inputs:not(:placeholder-shown).inputs:not(:focus) ~.label-msg{
     top: -4%;
     transition: all .5s;
     color: $accent-color;
-    font-size: 1rem;
+    font-size: $active-label-font;
 }
 
 // MEDIA QUERIES (TABLET)

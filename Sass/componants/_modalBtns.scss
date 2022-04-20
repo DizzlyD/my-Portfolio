@@ -4,7 +4,7 @@
     height: 3rem;
     width: 10rem;
     padding: 0.4rem 0;
-    font-size: 1.2rem;
+    font-size: $text-font-size-sml;
     margin-right: auto;
     color: $main-font-color;
     text-decoration: none;
@@ -20,6 +20,6 @@
         height: 4rem;
         width: 11rem;
         padding: 0.8rem 0;
-        font-size: 1.4rem;
+        font-size: $text-font-size-md;
     }
 }

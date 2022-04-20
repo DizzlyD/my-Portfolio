@@ -37,16 +37,16 @@
             align-items: flex-start;
         }
         &--title{
-            font-size: 2rem;
+            font-size: $text-font-size-lg;
             color: $accent-color;
             @include headerStyles;
         }
         &--descript{
-            font-size: 1.2rem;
+            font-size: $text-font-size-sml;
         }
         &--list{
             H6{
-                font-size: 1.2rem;
+                font-size: $text-font-size-sml;
                 margin-bottom: 1rem;
             }
             margin: 1rem 0;
@@ -92,14 +92,14 @@
             font-size: $headerFontSizeMed;
             }
         &--descript{
-            font-size: 1.4rem;
+            font-size: $text-font-size-md;
         }
         &--list{
             h6{
-                font-size: 2.2rem;
+                font-size: $text-font-size-xlg;
             }
             li{
-                font-size: 1.4rem;
+                font-size: $text-font-size-md;
             }
         }
         }

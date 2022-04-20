@@ -99,7 +99,7 @@
         }
         .h1-p4{
             // display: block;
-            font-size: 1.5rem;
+            font-size: 1.4rem;
             @include headerTransitions;
             animation: 1s 2.5s fadeIn forwards;
         }
@@ -164,7 +164,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        font-size: 1.4rem;
+        font-size: $text-font-size-md;
         a{
             text-decoration: none;
             color: $main-font-color;

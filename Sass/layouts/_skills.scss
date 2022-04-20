@@ -32,7 +32,7 @@
         }
         &--name{
             margin-top: 1rem;
-            font-size: 1.2rem;
+            font-size: $text-font-size-sml;
         }
     }
 }
@@ -49,7 +49,7 @@
             width: 55px;
             }
             &--name{
-            font-size: 1.4rem;
+            font-size: $text-font-size-md;
             }
         }
     }
@@ -62,7 +62,7 @@
             width: 75px;
             }
             &--name{
-            font-size: 1.6rem;
+            font-size: $text-font-size-md;
             }
         }
     }
