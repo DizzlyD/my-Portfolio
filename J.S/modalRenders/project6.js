@@ -15,7 +15,7 @@ class Project6 extends MainProject {
       <div class="modal__content--details">
         <h4 class="modal__content--title">Languisa</h4>
         <p class="modal__content--descript">Fictional language learning site. Currently in progress. Coming Soon.</p>
-        <ul class="modal__content--list">
+        <ul class="modal__content--list margin1Zero">
           <h6>Technologies used:</h6>
           <li>HTML</li>
           <li>CSS/Sass</li>

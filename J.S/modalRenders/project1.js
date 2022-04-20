@@ -16,7 +16,7 @@ class Project1 extends MainProject {
       <div class="modal__content--details">
         <h4 class="modal__content--title">myTeam</h4>
         <p class="modal__content--descript">myTeam allows users to search for any football team they like and see statistics about that team. Like games won, fixtures,results, minutes most likely to score and more. It also has a dark/light mode feature.</p>
-        <ul class="modal__content--list">
+        <ul class="modal__content--list margin1Zero">
           <h6>Technologies used:</h6>
           <li>HTML</li>
           <li>CSS/Sass</li>

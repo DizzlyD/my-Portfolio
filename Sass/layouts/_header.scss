@@ -73,9 +73,6 @@
     @include flexCol;
     justify-content: space-evenly;
     text-align: center;
-    span{
-        margin: 1rem 0;
-    }
     //
     &__heading{
         font-size: $headerFontSizeSml;

@@ -18,7 +18,7 @@ class Project5 extends MainProject {
         <h4 class="modal__content--title">SonicBoom</h4>
         <p class="modal__content--descript">SonicBoom is a fictional music festival web site. It's Primarily focused on electronic music and based in croatia.
         It has a lot of general concepts used in most festival sites like a vibrant colour theme and photo gallerys to try and showcase the festival experience.</p>
-        <ul class="modal__content--list">
+        <ul class="modal__content--list margin1Zero">
           <h6>Technologies used:</h6>
           <li>HTML</li>
           <li>CSS/Sass</li>

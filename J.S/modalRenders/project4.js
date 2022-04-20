@@ -17,7 +17,7 @@ class Project4 extends MainProject {
       <div class="modal__content--details">
         <h4 class="modal__content--title">DropZone</h4>
         <p class="modal__content--descript">DropZone is a random location generator for warzone players to help them choose where to drop with their friends. It has a couple of features like selecting & removing different locations and also a no repeat location feature.</p>
-        <ul class="modal__content--list">
+        <ul class="modal__content--list margin1Zero">
           <h6>Technologies used:</h6>
           <li>HTML</li>
           <li>CSS/Sass</li>

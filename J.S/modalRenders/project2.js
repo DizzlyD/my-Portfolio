@@ -17,7 +17,7 @@ class Project2 extends MainProject {
       <div class="modal__content--details">
         <h4 class="modal__content--title">Mars Weather</h4>
         <p class="modal__content--descript">Provides the users with weather data from mars, from nasa's curiosity rover. It allows them to see the weather for the most current day aswell as the previous week. Also contains a fahrenheit to celsius converter.</p>
-        <ul class="modal__content--list">
+        <ul class="modal__content--list margin1Zero">
           <h6>Technologies used:</h6>
           <li>HTML</li>
           <li>CSS/Sass</li>

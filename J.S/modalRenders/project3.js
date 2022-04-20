@@ -17,7 +17,7 @@ class Project3 extends MainProject {
       <div class="modal__content--details">
         <h4 class="modal__content--title">myWeather</h4>
         <p class="modal__content--descript">myWeather allows users to get weather forecasts based on their current location or by searching for a location. It also lets users search for next weeks forecast and forecast for the next five hours. Also includes a top 10 cities current weather feature.</p>
-        <ul class="modal__content--list">
+        <ul class="modal__content--list margin1Zero">
           <h6>Technologies used:</h6>
           <li>HTML</li>
           <li>CSS/Sass</li>
