@@ -10,18 +10,18 @@
     &__title{
         font-size: $headerFontSizeSml;
         @include headerStyles;
-        margin-bottom: auto;
+        margin-bottom: $marginOneSideAuto;
     }
     &__icons{
         width: 100%;
         display: flex;
         justify-content: space-evenly;
         align-items: flex-end;
-        margin-bottom: auto;
+        margin-bottom: $marginOneSideAuto;
     }
     &__box{
         // width: 100%;
-        margin-right: 1rem;
+        margin-right: $marginOneSideGeneral;
         &:last-child{
             margin-right: 0;
         }
@@ -31,7 +31,7 @@
             margin: 0 auto;
         }
         &--name{
-            margin-top: 1rem;
+            margin-top: $marginOneSideGeneral;
             font-size: $text-font-size-sml;
         }
     }

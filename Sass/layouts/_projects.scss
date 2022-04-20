@@ -10,7 +10,7 @@
     font-size: $headerFontSizeSml;
     @include headerStyles;
     // might keep??
-    margin: 5rem auto;
+    margin: $projectsTitleGalleryMargin;
     // max-width: 385px;
 }
 
@@ -18,7 +18,7 @@
 .projects__gallery{
     width: 100%;
     max-width: 385px;
-    margin: 5rem auto;
+    margin: $projectsTitleGalleryMargin;
     display: grid;
     gap: 15px;
     grid-template-columns: repeat(1, 1fr);

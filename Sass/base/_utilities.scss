@@ -1,3 +1,11 @@
-.margin1Auto{ // might make variable
-    margin: 1rem auto;
-} 
+.margin1Zero{ // used 3 times
+    margin: 1rem 0;
+}
+
+.marginZeroAuto{ // used 3 times
+    margin: 0 auto;
+}
+
+.margin5Auto{ // used 2 times
+    margin: 5rem auto;
+}
