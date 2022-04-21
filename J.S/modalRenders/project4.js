@@ -1,5 +1,6 @@
 import MainProject from "./projectMain.js";
-import dropzoneImg from "../../images/cod-dropzone-generator-placeholder.jpg";
+// import dropzoneImg from "../../images/cod-dropzone-generator-placeholder.jpg";
+import dropZoneImg from "../../images/dropzone-generator.png"
 
 // DROPZONE PROJECT
 
@@ -12,7 +13,7 @@ class Project4 extends MainProject {
         </svg>
       </div>
       <div class="modal__content--img" >
-        <img src="${dropzoneImg}" alt="">
+        <img src="${dropZoneImg}" alt="">
       </div>
       <div class="modal__content--details">
         <h4 class="modal__content--title">DropZone</h4>
@@ -20,14 +21,12 @@ class Project4 extends MainProject {
         <ul class="modal__content--list margin1Zero">
           <h6>Technologies used:</h6>
           <li>HTML</li>
-          <li>CSS/Sass</li>
+          <li>CSS</li>
           <li>Javascript</li>
-          <li>Parcel</li>
-          <li>Git</li>
         </ul>
         <div class="modal__content--links">
           <a href="https://github.com/DizzlyD/DropZone" class="modal-btn" target="_blank" rel="noopener noreferrer">gitHub</a>
-          <a href="https://dizzlyd.github.io/DropZone/" class="modal-btn" target="_blank" rel="noopener noreferrer">Live Project</a>
+          <a href="https://dropzone-generator.netlify.app/" class="modal-btn" target="_blank" rel="noopener noreferrer">Live Project</a>
         </div>
       </div>`;
     }

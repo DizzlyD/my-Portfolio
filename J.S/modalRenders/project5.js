@@ -1,5 +1,6 @@
 import MainProject from "./projectMain.js";
 import sonicboomModalImg from "../../images/festival-placeholder.jpg";
+import sonicboomImg from "../../images/sonicboom-festival.png"
 
 // SONIC BOOM PROJECT
 
@@ -12,7 +13,7 @@ class Project5 extends MainProject {
         </svg>
       </div>
       <div class="modal__content--img" >
-        <img src="${sonicboomModalImg}" alt="">
+        <img src="${sonicboomImg}" alt="">
       </div>
       <div class="modal__content--details">
         <h4 class="modal__content--title">SonicBoom</h4>
@@ -23,10 +24,12 @@ class Project5 extends MainProject {
           <li>HTML</li>
           <li>CSS/Sass</li>
           <li>Javascript</li>
+          <li>Parcel</li>
+          <li>Git</li>
         </ul>
         <div class="modal__content--links">
-          <a href="#" class="modal-btn" target="_blank" rel="noopener noreferrer">gitHub</a>
-          <a href="#" class="modal-btn" target="_blank" rel="noopener noreferrer" >Live Project</a>
+          <a href="https://github.com/DizzlyD/Sonicboom-Festival-Site" class="modal-btn" target="_blank" rel="noopener noreferrer">gitHub</a>
+          <a href="https://sonicboom-festival.netlify.app/" class="modal-btn" target="_blank" rel="noopener noreferrer" >Live Project</a>
         </div>
       </div>`;
   }
