@@ -12,21 +12,33 @@ import Project6 from "./modalRenders/project6.js";
 
 const modal = document.querySelector(".modal")
 
+
+/**
+ * Removes Modal on overlay click
+ */
 modal.addEventListener("click", function(e){
   const clicked = e.target.classList.contains("modal")
   if (!clicked) return
   modal.classList.remove("modal-active")
 })
 
+/**
+ * Displays modal and retrieves dataset from the clicked link and inputs it into the 'projectSection' to distribute to the projects functions.
+ * @param {Event} e 
+ * @returns Guard Clause
+ */
 const activateModal = function(e){
   const clicked = e.target.closest(".project-link");
   if (!clicked) return;
   modal.classList.add("modal-active");
   const projectNumber = clicked.dataset.pro;
-  console.log(clicked.dataset.pro);
   projectSelection(projectNumber)
 };
 
+/**
+ * Distributes dataset Number
+ * @param {number} n Dataset number
+ */
 const projectSelection = function(n){
 displayProject1(n)
 displayProject2(n)
@@ -36,6 +48,10 @@ displayProject5(n)
 displayProject6(n)
 }
 
+/**
+ * Checks to see if dataset matches the right project, then renders that project to the modal.
+ * @param {number} projectNum dataset number
+ */
 const displayProject1 = (projectNum) => {
   if (+projectNum === 1) Project1.render()
 }
@@ -55,6 +71,9 @@ const displayProject6 = (projectNum) => {
   if (+projectNum === 6) Project6.render()
 };
 
+/**
+ * Listens for the click event from one of the projects object
+ */
 const init = function(){
   Project1.projectHandler(activateModal)
 };

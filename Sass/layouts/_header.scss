@@ -63,7 +63,6 @@
 }
 
 .logo{
-    // height: 2rem;
     width: 6rem;
 }
 
@@ -95,7 +94,6 @@
             @include headerTransitions;
         }
         .h1-p4{
-            // display: block;
             font-size: 1.4rem;
             @include headerTransitions;
             animation: 1s 2.5s fadeIn forwards;
@@ -117,7 +115,6 @@
         .btn:first-child{
             margin-bottom: 1.5rem;
         }
-        // padding: 0 5%;
         @include flexCol;
         justify-content: space-between;
         align-items: center;

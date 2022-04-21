@@ -5,15 +5,11 @@
     width: 100vw;
     position: fixed;
     z-index: 15;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    @include absoluteCenter;
     &__content{
         position: absolute;
-        top: 50%;
-        left: 50%;
+        @include absoluteCenter;
         z-index: 20;
-        transform: translate(-50%, -50%);
         background-color: $secondary-color;
         height: 90%;
         width: 90%;

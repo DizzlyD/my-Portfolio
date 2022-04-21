@@ -3,14 +3,23 @@
     border-radius: 30px;
     font-size: $text-font-size-md;
     text-decoration: none;
+    font-weight: $fontWeightBtn;
+    &:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 1rem 2rem rgba($accent-color, 0.2);
+    }
+    &:active {
+    transform: translateY(-1px);
+    box-shadow: 0 0.5rem 1rem rgba($accent-color, 0.2);
+    }
 }
-
 
 .btn-primary{
     border: none;
     background-color: $accent-color;
     color: $primary-color;
-    &:visited{
+    &:visited,
+    &:link{
         color: $primary-color;
     }
 }
@@ -19,7 +28,14 @@
     border: 2px solid $accent-color;
     background-color: transparent;
     color: $main-font-color;
-    &:visited{
+    &:visited,
+    &:link{
         color: $main-font-color;
+    }
+}
+
+.btn-contact{
+    &:hover{
+        cursor: pointer;
     }
 }
