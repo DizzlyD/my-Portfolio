@@ -1,5 +1,6 @@
 import MainProject from "./projectMain.js";
 import myWeatherImg from "../../images/extremo-weather-finder.png";
+import testImg from "../../images/extremo-weather-finder.netlify-test.png"
 
 // MYWEATHER APP
 
@@ -12,7 +13,11 @@ class Project3 extends MainProject {
         </svg>
       </div>
       <div class="modal__content--img" >
-        <img src="${myWeatherImg}" alt="">
+<picture>
+        <source srcset="${testImg}" media="(min-width: 700px)">
+        <source srcset="${myWeatherImg}">
+        <img src="${myWeatherImg}" alt="Flowers">
+        </picture>
       </div>
       <div class="modal__content--details">
         <h4 class="modal__content--title">myWeather</h4>

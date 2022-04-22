@@ -1,6 +1,7 @@
 import MainProject from "./projectMain.js";
-// import dropzoneImg from "../../images/cod-dropzone-generator-placeholder.jpg";
-import dropZoneImg from "../../images/dropzone-generator.png"
+import dropZoneImg from "../../images/dropzone-generator.png";
+import testImg from "../../images/dropzone-generator.netlify-test.png";
+
 
 // DROPZONE PROJECT
 
@@ -13,11 +14,15 @@ class Project4 extends MainProject {
         </svg>
       </div>
       <div class="modal__content--img" >
-        <img src="${dropZoneImg}" alt="">
+        <picture>
+        <source srcset="${testImg}" media="(min-width: 700px)">
+        <source srcset="${dropZoneImg}">
+        <img src="${dropZoneImg}" alt="Flowers">
+        </picture>
       </div>
       <div class="modal__content--details">
         <h4 class="modal__content--title">DropZone</h4>
-        <p class="modal__content--descript">DropZone is a random location generator for warzone players to help them choose where to drop with their friends. It has a couple of features like selecting & removing different locations and also a no repeat location feature.</p>
+        <p class="modal__content--descript">DropZone is a random location generator for warzone players to help them choose where to drop with their friends. It has a couple of features like selecting & removing different locations, a no repeat location feature and can add custom locations.</p>
         <ul class="modal__content--list margin1Zero">
           <h6>Technologies used:</h6>
           <li>HTML</li>

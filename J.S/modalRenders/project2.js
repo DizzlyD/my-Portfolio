@@ -1,5 +1,6 @@
 import MainProject from "./projectMain.js";
 import marsWeathImg from "../../images/mars-tiempo-app.png";
+import testImg from "../../images/mars-tiempo.netlify-test.png";
 
 // MARS WEATHER PROJECT
 
@@ -12,7 +13,11 @@ class Project2 extends MainProject {
         </svg>
       </div>
       <div class="modal__content--img" >
-        <img src="${marsWeathImg}" alt="">
+<picture>
+        <source srcset="${testImg}" media="(min-width: 700px)">
+        <source srcset="${marsWeathImg}">
+        <img src="${marsWeathImg}" alt="Flowers">
+        </picture>
       </div>
       <div class="modal__content--details">
         <h4 class="modal__content--title">Mars Weather</h4>

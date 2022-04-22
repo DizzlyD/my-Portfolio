@@ -21,7 +21,7 @@
                 height: 100%;
                 width: 100%;
                 object-fit: cover;
-                object-position: 50% 50%;
+                object-position: top;
             }
         }
         &--details{
@@ -79,6 +79,9 @@
         flex-direction: row-reverse;
         &--img{
             height: 100%;
+            // img{
+            //     // object-position: 50% 50%;
+            // }
             }
         &--details{
             height: 100%;

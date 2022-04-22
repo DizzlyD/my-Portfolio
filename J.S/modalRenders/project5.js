@@ -1,6 +1,6 @@
 import MainProject from "./projectMain.js";
-import sonicboomModalImg from "../../images/festival-placeholder.jpg";
 import sonicboomImg from "../../images/sonicboom-festival.png"
+import testImg from "../../images/sonicboom-festival.netlify-test.png";
 
 // SONIC BOOM PROJECT
 
@@ -13,7 +13,11 @@ class Project5 extends MainProject {
         </svg>
       </div>
       <div class="modal__content--img" >
-        <img src="${sonicboomImg}" alt="">
+        <picture>
+        <source srcset="${testImg}" media="(min-width: 700px)">
+        <source srcset="${sonicboomImg}">
+        <img src="${sonicboomImg}" alt="Flowers">
+        </picture>
       </div>
       <div class="modal__content--details">
         <h4 class="modal__content--title">SonicBoom</h4>

@@ -1,5 +1,7 @@
 import MainProject from "./projectMain.js";
 import myTeamImg from "../../images/main--myteam-football-dashboard.png";
+import testImg from "../../images/main--myteam-football-dashboard.netlify-test.png";
+
 
 class Project1 extends MainProject {
   
@@ -11,7 +13,11 @@ class Project1 extends MainProject {
         </svg>
       </div>
       <div class="modal__content--img" >
-        <img src="${myTeamImg}" alt="">
+        <picture>
+        <source srcset="${testImg}" media="(min-width: 700px)">
+        <source srcset="${myTeamImg}">
+        <img src="${myTeamImg}" alt="Flowers">
+        </picture>
       </div>
       <div class="modal__content--details">
         <h4 class="modal__content--title">myTeam</h4>
