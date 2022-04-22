@@ -22,12 +22,11 @@
     <link rel="stylesheet" href="/Sass/styles.scss" />
     <!-- J.S -->
     <script defer type="module" src="/J.S/main.js"></script>
-    <title>Portfolio</title>
+    <title>David's Portfolio</title>
   </head>
   <body>
 
       <header class="header">
-
         <nav class="navbar">
           <div class="logo">
             <svg viewBox="0 0 94 68" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -93,10 +92,9 @@
         </div>
 
         <div id="about" class="about__content">
-          <h2 class="about__content--title">About Me
+          <h2 class="about__content--title">A little about me
           </h2>
-          <p class="about__content--text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et voluptatum nihil dolorum, porro necessitatibus iusto quae nisi?
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, omnis fuga? Maiores.
+          <p class="about__content--text">Hi, my names David Henery, i'm a web developer with a passion for learning new technologies and unique, responsive designs with a sharp attenstion to detail. When i'm not designing or coding i love learning new instruments, listening to music, watching football and attempting to speak spanish :)
           </p>
         </div>
       </section>
@@ -271,7 +269,7 @@
                   <div class="project-text">
                     <h4 class="project-name">Languisa</h4>
                     <p class="project-descript">Fictional language learning site. Currently in progress. Coming Soon.</p>
-                    <a href="#" data-pro="6" class="project-link">Click here for more info</a>
+                    <a href="#projects" data-pro="6" class="project-link">Click here for more info</a>
                   </div>
                 </div>
               </div>
@@ -285,29 +283,31 @@
           Want to work together?
           <span class="margin1Zero">Get in touch</span>
         </h2>
-        <form action="" class="contact__form">
+        <form method="POST" action="https://formsubmit.co/davidhenerydev4@gmail.com" class="contact__form">
 
           <div class="contact__form--input">
-            <input class="inputs" id="name" type="text" placeholder=" " autocomplete="off" required>
+            <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html">
+
+            <input name="name" class="inputs" id="name" type="text" placeholder=" " autocomplete="off" required>
             <label class="labels" for="name">Name</label>
           </div>
             
           <div class="contact__form--input">
-            <input class="inputs"  id="e-mail"  type="email" placeholder=" " autocomplete="off" required>
+            <input name="email" class="inputs"  id="e-mail"  type="email" placeholder=" " autocomplete="off" required>
             <label for="e-mail" class="labels">E-Mail</label>
           </div>
 
           <div class="contact__form--input">
-            <input class="inputs"  id="regarding" type="text" placeholder=" " autocomplete="off" required>
-            <label for="regarding" class="labels">RE</label>
+            <input name="subject" class="inputs"  id="regarding" type="text" placeholder=" " autocomplete="off" required>
+            <label for="regarding" class="labels">Subject</label>
           </div>
             
           <div class="contact__form--msg">
-            <textarea class="inputs"  id="msg"  cols="30" rows="10" placeholder=" " autocomplete="off" required></textarea>
+            <textarea name="message" class="inputs"  id="msg"  cols="30" rows="10" placeholder=" " autocomplete="off" required></textarea>
             <label for="msg" class="label-msg">Message</label>
           </div>
 
-          <button class="btn btn-primary contact__form--btn marginZeroAuto btn-contact">Submit
+          <button type="submit" class="btn btn-primary contact__form--btn marginZeroAuto btn-contact">Submit
           </button>
         </form>
 

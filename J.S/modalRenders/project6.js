@@ -17,15 +17,15 @@ class Project6 extends MainProject {
         <p class="modal__content--descript">Fictional language learning site. Currently in progress. Coming Soon.</p>
         <ul class="modal__content--list margin1Zero">
           <h6>Technologies used:</h6>
-          <li>HTML</li>
-          <li>CSS/Sass</li>
-          <li>Javascript</li>
-          <li>Parcel</li>
-          <li>Git</li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
         </ul>
         <div class="modal__content--links">
-          <a href="#" class="modal-btn" target="_blank" rel="noopener noreferrer">gitHub</a>
-          <a href="#" class="modal-btn" target="_blank" rel="noopener noreferrer">Live Project</a>
+          <a href="#projects" class="modal-btn" target="_blank" rel="noopener noreferrer">gitHub</a>
+          <a href="#projects" class="modal-btn" target="_blank" rel="noopener noreferrer">Live Project</a>
         </div>
       </div>`;
   }

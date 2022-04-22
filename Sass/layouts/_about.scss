@@ -10,6 +10,7 @@
     justify-content: space-evenly;
     &--title{
         font-size: $headerFontSizeSml;
+        color: $accent-color;
         @include headerStyles;
     }
     &--text{
@@ -23,7 +24,7 @@
 @media(min-width: 1024px) {
     .about__content{
         &--title{
-            font-size: $headerFontSizeMed;
+            font-size: $headerFontSizeLge;
         }
         &--text{
             font-size: $text-font-size-xlg;

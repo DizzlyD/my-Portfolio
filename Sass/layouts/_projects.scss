@@ -10,6 +10,7 @@
     font-size: $headerFontSizeSml;
     @include headerStyles;
     margin: $projectsTitleGalleryMargin;
+    color: $accent-color;
 }
 
 
@@ -102,6 +103,9 @@
 
 // (DESKTOP)
 @media(min-width: 1024px){
+    .projects__title{
+        font-size: $headerFontSizeLge;
+    }
     .projects__gallery{
     grid-template-columns: repeat(3, 1fr);
     }
