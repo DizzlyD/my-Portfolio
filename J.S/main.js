@@ -1,4 +1,5 @@
-console.log("working");
+import "core-js/stable";
+import "regenerator-runtime/runtime";
 
 // MODAL FUNCTIONALITY
 
