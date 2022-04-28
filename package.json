@@ -16,7 +16,6 @@
   },
   "dependencies": {
     "core-js": "^3.22.3",
-    "posthtml-doctype": "^1.1.1",
     "regenerator-runtime": "^0.13.9"
   }
 }
