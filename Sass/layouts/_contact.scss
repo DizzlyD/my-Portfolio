@@ -67,6 +67,10 @@
     font-size: $active-label-font;
 }
 
+::placeholder{
+    color: $secondary-color;
+}
+
 // MEDIA QUERIES (TABLET)
 @media(min-width:768px){
     .contact{
