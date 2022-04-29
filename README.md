@@ -2,7 +2,7 @@
 
 "This is my front end developer portfolio"
 
-This website is for people to know a little bit about me, display my current skill set and also show my projects. Aswell as a way for potential employers to contact me. If your curious and want to check it out, follow this link " \*\*\*\*"
+This website is for people to know a little bit about me, display my current skill set and also show my projects. Aswell as a way for potential employers to contact me. If your curious and want to check it out, follow this link:  https://www.djhwebdevelopment.com
 
 ## Design, colour theme & layout
 
