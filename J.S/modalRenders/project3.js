@@ -31,7 +31,7 @@ class Project3 extends MainProject {
           <li>Git</li>
         </ul>
         <div class="modal__content--links">
-          <a href="https://github.com/DizzlyD/myWeatherApp" class="modal-btn" target="_blank" rel="noopener noreferrer">gitHub</a>
+          <a href="https://github.com/David-Henery4/myWeatherApp" class="modal-btn" target="_blank" rel="noopener noreferrer">gitHub</a>
           <a href="https://extremo-weather-finder.netlify.app" class="modal-btn" target="_blank" rel="noopener noreferrer">Live Project</a>
         </div>
       </div>`;

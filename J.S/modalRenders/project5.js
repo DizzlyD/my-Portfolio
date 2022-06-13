@@ -32,7 +32,7 @@ class Project5 extends MainProject {
           <li>Git</li>
         </ul>
         <div class="modal__content--links">
-          <a href="https://github.com/DizzlyD/Sonicboom-Festival-Site" class="modal-btn" target="_blank" rel="noopener noreferrer">gitHub</a>
+          <a href="https://github.com/David-Henery4/Sonicboom-Festival-Site" class="modal-btn" target="_blank" rel="noopener noreferrer">gitHub</a>
           <a href="https://sonicboom-festival.netlify.app/" class="modal-btn" target="_blank" rel="noopener noreferrer" >Live Project</a>
         </div>
       </div>`;
