@@ -1,5 +1,7 @@
 import MainProject from "./projectMain.js";
 import languageSiteImg from "../../images/Language-placeholder-coming-soon.jpg";
+import languisaMobile from "../../images/Languisa-modal-mob.png"
+import languisaDesk from "../../images/Languisa-modal-desk.png"
 
 class Project6 extends MainProject {
   _generateMarkup() {
@@ -10,7 +12,10 @@ class Project6 extends MainProject {
         </svg>
       </div>
       <div class="modal__content--img" >
-        <img src="${languageSiteImg}" alt="">
+        <source srcset="${languisaDesk}" media="(min-width: 700px)">
+        <source srcset="${languisaMobile}">
+        <img src="${languisaMobile}" alt="Flowers">
+        </picture>
       </div>
       <div class="modal__content--details">
         <h4 class="modal__content--title">Languisa</h4>
