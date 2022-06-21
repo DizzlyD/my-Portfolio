@@ -1,7 +1,6 @@
 import MainProject from "./projectMain.js";
-import languageSiteImg from "../../images/Language-placeholder-coming-soon.jpg";
-import languisaMobile from "../../images/Languisa-modal-mob.png"
-import languisaDesk from "../../images/Languisa-modal-desk.png"
+import languisaDesk from "../../images/Languisa-desktop-image.png"
+import languisaDeskSmall from "../../images/Languisa-mobile-image.png"
 
 class Project6 extends MainProject {
   _generateMarkup() {
@@ -12,25 +11,26 @@ class Project6 extends MainProject {
         </svg>
       </div>
       <div class="modal__content--img" >
-        <source srcset="${languisaDesk}" media="(min-width: 700px)">
-        <source srcset="${languisaMobile}">
-        <img src="${languisaMobile}" alt="Flowers">
+        <picture>
+        <source srcset="${languisaDeskSmall}" media="(min-width: 700px)">
+        <source srcset="${languisaDesk}">
+        <img src="${languisaDesk}" alt="Flowers">
         </picture>
       </div>
       <div class="modal__content--details">
         <h4 class="modal__content--title">Languisa</h4>
-        <p class="modal__content--descript">Fictional language learning site. Currently in progress. Coming Soon.</p>
+        <p class="modal__content--descript">Languisa is a fictional language learning site. Which offers users multiple ways of learning a new language. The site also has a small greetings animation, which displays greetings in different languages.</p>
         <ul class="modal__content--list margin1Zero">
           <h6>Technologies used:</h6>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
+          <li>HTML</li>
+          <li>CSS/Sass</li>
+          <li>Javascript</li>
+          <li>Git</li>
+          <li>Parcel</li>
         </ul>
         <div class="modal__content--links">
-          <a href="#projects" class="modal-btn" target="_blank" rel="noopener noreferrer">gitHub</a>
-          <a href="#projects" class="modal-btn" target="_blank" rel="noopener noreferrer">Live Project</a>
+          <a href="https://github.com/David-Henery4/Languisa" class="modal-btn" target="_blank" rel="noopener noreferrer">gitHub</a>
+          <a href="https://languisa.netlify.app" class="modal-btn" target="_blank" rel="noopener noreferrer">Live Project</a>
         </div>
       </div>`;
   }
