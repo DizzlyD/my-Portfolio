@@ -1,6 +1,6 @@
 import MainProject from "./projectMain.js";
-import languisaDesk from "../../images/Languisa-desktop-image.png"
-import languisaDeskSmall from "../../images/Languisa-mobile-image.png"
+import languisaDesk from "../../images/project-6-imgs/Languisa-desktop-image.png";
+import languisaDeskSmall from "../../images/project-6-imgs/Languisa-mobile-image.png";
 
 class Project6 extends MainProject {
   _generateMarkup() {

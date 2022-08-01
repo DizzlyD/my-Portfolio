@@ -1,6 +1,6 @@
 import MainProject from "./projectMain.js";
-import myTeamImg from "../../images/main--myteam-football-dashboard.png";
-import testImg from "../../images/main--myteam-football-dashboard.netlify-test.png";
+import myTeamImg from "../../images/project-1-imgs/main--myteam-football-dashboard.png";
+import testImg from "../../images/project-1-imgs/main--myteam-football-dashboard.netlify-test.png";
 
 
 class Project1 extends MainProject {

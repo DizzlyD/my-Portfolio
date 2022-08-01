@@ -1,6 +1,6 @@
 import MainProject from "./projectMain.js";
-import sonicboomImg from "../../images/sonicboom-festival.png"
-import testImg from "../../images/sonicboom-festival.netlify-test.png";
+import sonicboomImg from "../../images/project-5-imgs/sonicboom-festival.png";
+import testImg from "../../images/project-5-imgs/sonicboom-festival.netlify-test.png";
 
 // SONIC BOOM PROJECT
 

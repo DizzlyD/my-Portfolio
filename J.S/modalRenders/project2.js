@@ -1,6 +1,7 @@
 import MainProject from "./projectMain.js";
-import marsWeathImg from "../../images/mars-tiempo-app.png";
-import testImg from "../../images/mars-tiempo.netlify-test.png";
+import scheduleTrackRDesk from "../../images/project-2-imgs/schedule-trackr-desk.png";
+import scheduleTrackRMob from "../../images/project-2-imgs/schedule-trackr-mob.png";
+
 
 // MARS WEATHER PROJECT
 
@@ -13,26 +14,26 @@ class Project2 extends MainProject {
         </svg>
       </div>
       <div class="modal__content--img" >
-<picture>
-        <source srcset="${testImg}" media="(min-width: 700px)">
-        <source srcset="${marsWeathImg}">
-        <img src="${marsWeathImg}" alt="Flowers">
+        <picture>
+        <source srcset="${scheduleTrackRMob}" media="(min-width: 700px)">
+        <source srcset="${scheduleTrackRDesk}">
+        <img src="${scheduleTrackRDesk}" alt="Flowers">
         </picture>
       </div>
       <div class="modal__content--details">
-        <h4 class="modal__content--title">Mars Weather</h4>
-        <p class="modal__content--descript">Provides the users with weather data from mars, from nasa's curiosity rover. It allows them to see the weather for the most current day aswell as the previous week. Also contains a fahrenheit to celsius converter.</p>
+        <h4 class="modal__content--title">Schedule TrackR</h4>
+        <p class="modal__content--descript">Helps users keep on top of their day and helps them remain organised to get what they need done. It also has a couple of features like a todos section and goals section to help users remain motivated to reach thier goals.</p>
         <ul class="modal__content--list margin1Zero">
           <h6>Technologies used:</h6>
           <li>HTML</li>
           <li>CSS/Sass</li>
           <li>Javascript</li>
-          <li>Parcel</li>
+          <li>React</li>
           <li>Git</li>
         </ul>
         <div class="modal__content--links">
-          <a href="https://github.com/David-Henery4/Mars-Weather" class="modal-btn" target="_blank" rel="noopener noreferrer">gitHub</a>
-          <a href="https://mars-tiempo.netlify.app" class="modal-btn" target="_blank" rel="noopener noreferrer">Live Project</a>
+          <a href="https://github.com/David-Henery4/Schedule-TrackR" class="modal-btn" target="_blank" rel="noopener noreferrer">gitHub</a>
+          <a href="https://schedule-trackr.netlify.app" class="modal-btn" target="_blank" rel="noopener noreferrer">Live Project</a>
         </div>
       </div>`;
   }

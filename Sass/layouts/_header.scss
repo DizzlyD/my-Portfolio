@@ -54,13 +54,15 @@
             cursor: pointer;
         }
     }
-    a{
+    a,
+    a:link,
+    a:visited{
         font-size: $headerFontSizeSml;
         text-decoration: none;
         color: $main-font-color;
-        &:visited{
-            color: $main-font-color;
-        }
+        &:hover{
+                color: $accent-color;
+            }
     }
 }
 
@@ -165,12 +167,14 @@
         justify-content: space-between;
         align-items: center;
         font-size: $text-font-size-md;
-        a{
+        a,
+        a:link,
+        a:visited{
             text-decoration: none;
             color: $main-font-color;
-        }
-        a:visited{
-            color: $main-font-color;
+            &:hover{
+                color: $accent-color;
+            }
         }
     }
 }

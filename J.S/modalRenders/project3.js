@@ -1,6 +1,6 @@
 import MainProject from "./projectMain.js";
-import myWeatherImg from "../../images/extremo-weather-finder.png";
-import testImg from "../../images/extremo-weather-finder.netlify-test.png"
+import myWeatherImg from "../../images/project-3-imgs/extremo-weather-finder.png";
+import testImg from "../../images/project-3-imgs/extremo-weather-finder.netlify-test.png";
 
 // MYWEATHER APP
 

@@ -1,22 +1,25 @@
 .skills{
     background-color: $primary-color;
-    height: 45vh;
+    height: 100%;
     width: 100%;
     text-align: center;
-    padding:$section-padding;
+    padding: 3rem 5%;
+    gap: 4rem;
     @include flexCol;
     justify-content: space-evenly;
     align-items: center;
     &__title{
-        font-size: $headerFontSizeSml;
+        font-size: $headerFontSizeMed;
         @include headerStyles;
         margin-bottom: $marginOneSideAuto;
     }
     &__icons{
         width: 100%;
         display: flex;
+        gap: 4rem;
+        flex-direction: column;
         justify-content: space-evenly;
-        align-items: flex-end;
+        align-items: center;
         margin-bottom: $marginOneSideAuto;
     }
     &__box{
@@ -26,7 +29,7 @@
         }
         &--svg{
             height: 100%;
-            width: 35px;
+            width: 65px;
         }
         &--name{
             margin-top: $marginOneSideGeneral;
@@ -39,13 +42,12 @@
 
 @media (min-width: 768px){
     .skills{
-        &__title{
-            font-size: $headerFontSizeMed;
+        &__icons{
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: flex-end;
         }
         &__box{
-            &--svg{
-            width: 55px;
-            }
             &--name{
             font-size: $text-font-size-md;
             }
