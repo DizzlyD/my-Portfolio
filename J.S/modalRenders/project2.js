@@ -29,6 +29,7 @@ class Project2 extends MainProject {
           <li>CSS/Sass</li>
           <li>Javascript</li>
           <li>React</li>
+          <li>React-Router-6</li>
           <li>Git</li>
         </ul>
         <div class="modal__content--links">
