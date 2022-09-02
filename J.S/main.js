@@ -12,6 +12,7 @@ import Project5 from "./modalRenders/project5.js";
 import Project6 from "./modalRenders/project6.js";
 import Project7 from "./modalRenders/project7.js";
 import Project8 from "./modalRenders/project8.js";
+import Project9 from "./modalRenders/project9.js";
 
 const modal = document.querySelector(".modal")
 
@@ -51,6 +52,7 @@ displayProject5(n)
 displayProject6(n)
 displayProject7(n)
 displayProject8(n)
+displayProject9(n)
 }
 
 /**
@@ -80,6 +82,9 @@ const displayProject7 = (projectNum) => {
 };
 const displayProject8 = (projectNum) => {
   if (+projectNum === 8) Project8.render()
+};
+const displayProject9 = (projectNum) => {
+  if (+projectNum === 9) Project9.render()
 };
 
 /**
