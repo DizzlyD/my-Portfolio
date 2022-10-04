@@ -34,8 +34,8 @@ class Project1 extends MainProject {
           <li>Redux-Toolkit</li>
         </ul>
         <div class="modal__content--links">
-          <a href="https://github.com/David-Henery4/myTeam-Football-Dashboard" class="modal-btn" target="_blank" rel="noopener noreferrer">gitHub</a>
-          <a href="https://myteam-football-dashboard.netlify.app" class="modal-btn" target="_blank" rel="noopener noreferrer">Live Project</a>
+          <a href="https://github.com/David-Henery4/Audiophile-Ecommerce-site" class="modal-btn" target="_blank" rel="noopener noreferrer">gitHub</a>
+          <a href="https://audiophile-ecommerce-store.netlify.app" class="modal-btn" target="_blank" rel="noopener noreferrer">Live Project</a>
         </div>
       </div>`;
   }
