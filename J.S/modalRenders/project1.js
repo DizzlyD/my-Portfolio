@@ -1,6 +1,8 @@
 import MainProject from "./projectMain.js";
 import myTeamImg from "../../images/project-1-imgs/main--myteam-football-dashboard.png";
 import testImg from "../../images/project-1-imgs/main--myteam-football-dashboard.netlify-test.png";
+import desktopImg from "../../images/project-1-imgs/desktop-audiophile.png";
+import mobileImg from "../../images/project-1-imgs/mobile-audiophile.png";
 
 
 class Project1 extends MainProject {
@@ -14,21 +16,22 @@ class Project1 extends MainProject {
       </div>
       <div class="modal__content--img" >
         <picture>
-        <source srcset="${testImg}" media="(min-width: 700px)">
-        <source srcset="${myTeamImg}">
-        <img src="${myTeamImg}" alt="Flowers">
+        <source srcset="${mobileImg}" media="(min-width: 700px)">
+        <source srcset="${desktopImg}">
+        <img src="${desktopImg}" alt="Flowers">
         </picture>
       </div>
       <div class="modal__content--details">
-        <h4 class="modal__content--title">myTeam</h4>
-        <p class="modal__content--descript">myTeam allows users to search for any football team they like and see statistics about that team. Like games won, fixtures,results, minutes most likely to score and more. It also has a dark/light mode feature.</p>
+        <h4 class="modal__content--title">Audiophile</h4>
+        <p class="modal__content--descript">Audiophile is a music equipment ecommerce site. Users can browse different products and categries.
+        It also has cart full cart functionality and checkout validation for when users want to make a purchase. (Frontend Mentor Project)</p>
         <ul class="modal__content--list margin1Zero">
           <h6>Technologies used:</h6>
           <li>HTML</li>
           <li>CSS/Sass</li>
-          <li>Javascript</li>
-          <li>Parcel</li>
-          <li>Git</li>
+          <li>Javascript/React.js</li>
+          <li>React-Router</li>
+          <li>Redux-Toolkit</li>
         </ul>
         <div class="modal__content--links">
           <a href="https://github.com/David-Henery4/myTeam-Football-Dashboard" class="modal-btn" target="_blank" rel="noopener noreferrer">gitHub</a>
