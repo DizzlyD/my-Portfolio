@@ -1,6 +1,4 @@
 import MainProject from "./projectMain.js";
-import myTeamImg from "../../images/project-1-imgs/main--myteam-football-dashboard.png";
-import testImg from "../../images/project-1-imgs/main--myteam-football-dashboard.netlify-test.png";
 import desktopImg from "../../images/project-1-imgs/desktop-audiophile.png";
 import mobileImg from "../../images/project-1-imgs/mobile-audiophile.png";
 

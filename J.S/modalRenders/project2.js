@@ -1,6 +1,6 @@
 import MainProject from "./projectMain.js";
-import scheduleTrackRDesk from "../../images/project-2-imgs/schedule-trackr-desk.png";
-import scheduleTrackRMob from "../../images/project-2-imgs/schedule-trackr-mob.png";
+import kanbanMobile from "../../images/project-2-imgs/kanban-mobile.png"
+import kanbanDesktop from "../../images/project-2-imgs/kanban-desktop.png"
 
 
 // MARS WEATHER PROJECT
@@ -15,26 +15,26 @@ class Project2 extends MainProject {
       </div>
       <div class="modal__content--img" >
         <picture>
-        <source srcset="${scheduleTrackRMob}" media="(min-width: 700px)">
-        <source srcset="${scheduleTrackRDesk}">
-        <img src="${scheduleTrackRDesk}" alt="Flowers">
+        <source srcset="${kanbanMobile}" media="(min-width: 700px)">
+        <source srcset="${kanbanDesktop}">
+        <img src="${kanbanDesktop}" alt="Flowers">
         </picture>
       </div>
       <div class="modal__content--details">
-        <h4 class="modal__content--title">Schedule TrackR</h4>
-        <p class="modal__content--descript">Helps users keep on top of their day and helps them remain organised to get what they need done. It also has a couple of features like a todos section and goals section to help users remain motivated to reach thier goals.</p>
+        <h4 class="modal__content--title">Kanban Tasks</h4>
+        <p class="modal__content--descript">Kanban Tasks is a task management app that allows users to control different tasks, update their status and create different task boards. Users can also change their tasks status by dragging them into different columns.</p>
         <ul class="modal__content--list margin1Zero">
           <h6>Technologies used:</h6>
           <li>HTML</li>
           <li>CSS/Sass</li>
           <li>Javascript</li>
           <li>React</li>
-          <li>React-Router-6</li>
+          <li>React-ReduxToolkit</li>
           <li>Git</li>
         </ul>
         <div class="modal__content--links">
-          <a href="https://github.com/David-Henery4/Schedule-TrackR" class="modal-btn" target="_blank" rel="noopener noreferrer">gitHub</a>
-          <a href="https://schedule-trackr.netlify.app" class="modal-btn" target="_blank" rel="noopener noreferrer">Live Project</a>
+          <a href="https://github.com/David-Henery4/Kanban-Task-Manager" class="modal-btn" target="_blank" rel="noopener noreferrer">gitHub</a>
+          <a href="https://kanban-taskmanager.netlify.app" class="modal-btn" target="_blank" rel="noopener noreferrer">Live Project</a>
         </div>
       </div>`;
   }
